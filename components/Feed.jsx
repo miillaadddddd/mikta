@@ -1,3 +1,4 @@
+import Posts from "./Posts";
 import Stories from "./Stories";
 
 function Feed() {
@@ -10,6 +11,7 @@ function Feed() {
       <section className="col-span-2">
         {/* Stories */}
         <Stories />
+        <Posts />
         {/* Posts */}
       </section>
 
